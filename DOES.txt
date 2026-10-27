@@ -21,7 +21,10 @@ What asciimoose.mov does. A golf pass must keep every line true.
     view. The film showing is marked.
  8. The console gives the Greek word for the one who reads nature, and what it
     means.
- 9. Colours come from the house tokens, crimson; dark mode follows the system.
-    The films' ground is their own black.
+ 9. Colours come from the house tokens, crimson. The theme is the system's until
+    the visitor turns it with the last button, which names the theme it turns to
+    ("dark" or "light"); a system change is followed until then, the change fades
+    as the tokens carry it, and nothing is kept. Without script the button is not
+    there. The films' ground is their own black.
 10. The 404 is the label of a film that has not been made.
 11. The favicon is Fred's own outline, in crimson, lighter on dark tab bars.

@@ -48,7 +48,7 @@ ol a[aria-current]{color:var(--ink)}
 <p>2026</p>
 <p class="d" id="fd">0:13</p>
 </div>
-<nav><button id="prev" hidden>previous</button><button id="next">next random</button><span id="n">1 of 107</span></nav>
+<nav><button id="prev" hidden>previous</button><button id="next">next random</button><span id="n">1 of 107</span><button id="theme" hidden>dark</button></nav>
 </div>
 </div>
 <details>
@@ -215,6 +215,14 @@ L.forEach((a,j)=>a.onclick=e=>{e.preventDefault();visit(j);$("screen").scrollInt
 v.onclick=()=>{if(!v.controls)v.paused?v.play():v.pause()};
 if(calm){v.removeAttribute("autoplay");v.pause();v.controls=true}
 arrive();
+
+// theme: the system's, until the visitor turns it; nothing is kept
+const root=document.documentElement,sys=matchMedia("(prefers-color-scheme: dark)"),T=$("theme"),
+  dark=()=>{const t=root.getAttribute("data-theme");return t?t=="dark":sys.matches},
+  name=()=>T.textContent=dark()?"light":"dark";
+sys.addEventListener("change",()=>{if(!root.getAttribute("data-theme"))name()});
+T.onclick=()=>{root.setAttribute("data-theme",dark()?"light":"dark");name()};
+name();T.hidden=false;
 
 // the page's own size: it asks for itself and counts what comes back
 fetch(location.pathname).then(r=>r.arrayBuffer()).then(b=>$("self").textContent=b.byteLength.toLocaleString("en-US"));
