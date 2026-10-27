@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>asciimoose.mov</title>
+<meta name="description" content="ascii, gravity, light, sound.">
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="tokens.css?4">
+<style>
+body{margin:0;padding:2rem 16px 1rem;min-height:100svh;box-sizing:border-box;display:flex;flex-direction:column;background:var(--paper);color:var(--ink);font:19px/1.5 var(--book);font-variant-numeric:oldstyle-nums}
+/* the room is as wide as lets the film, its label and the way on fit one screen */
+main,.by{width:min(100%,max(20rem,calc((100svh - 14.5rem)*16/9)));margin:0 auto}
+main{flex:1}
+/* the films' own ground: they are drawn on black */
+video{display:block;width:100%;aspect-ratio:16/9;background:#000;cursor:pointer}
+video[controls]{cursor:auto}
+.under{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:.5rem 2rem;margin-top:.75rem}
+.label p{margin:0;line-height:1.35}
+.t{font-size:1.1rem}
+.m{font-variant-caps:all-small-caps;letter-spacing:.04em}
+.d{font-variant-numeric:lining-nums tabular-nums}
+nav,summary{font:.8rem/1.6 var(--typewriter)}
+nav{display:flex;gap:1.2rem;align-items:baseline}
+button{font:inherit;background:none;border:0;padding:0;color:var(--crimson-base);cursor:pointer}
+summary{color:var(--crimson-base);cursor:pointer}
+button:focus-visible,video:focus-visible,a:focus-visible,summary:focus-visible{outline:1px solid var(--rule);outline-offset:6px}
+details{margin-top:.75rem}
+.room{margin-top:1.25rem}
+ol{margin:1rem 0 0;padding:0;list-style:none;columns:2 22rem;column-gap:2.5rem;font-size:.85rem;line-height:1.45}
+li{break-inside:avoid;margin-bottom:.15rem}
+li span{color:var(--crimson-base);font-variant-numeric:lining-nums tabular-nums}
+a{color:var(--crimson-accent);text-underline-offset:.15em}
+ol a{text-decoration:none}
+ol a:hover,ol a[aria-current]{text-decoration:underline}
+ol a[aria-current]{color:var(--ink)}
+.by{margin-top:1rem;text-align:right;font-size:.8rem}
+</style>
+</head>
+<body>
+<main>
+<div id="screen">
+<video id="v" src="films/an-ascii-moose-undergoes-gravitational-collapse.mp4" poster="posters/an-ascii-moose-undergoes-gravitational-collapse.jpg" autoplay muted loop playsinline aria-label="an ascii moose undergoes gravitational collapse"></video>
+<div class="under">
+<div class="label" aria-live="polite">
+<p class="t" id="ft">an ascii moose undergoes gravitational collapse</p>
+<p class="m" id="fm">single-channel video, black and white, silent</p>
+<p>2026</p>
+<p class="d" id="fd">0:13</p>
+</div>
+<nav><button id="prev" hidden>previous</button><button id="next">next random</button><span id="n">1 of 107</span></nav>
+</div>
+</div>
+<details>
+<summary>catalogue</summary>
+<div class="label room">
+<p class="t">asciimoose.mov</p>
+<p class="m">ascii, gravity, light, sound</p>
+<p>2026</p>
+<p class="d"><span id="self">&ndash;</span> bytes</p>
+</div>
+<ol>
+<li><a href="films/an-ascii-moose-undergoes-gravitational-collapse.mp4" data-c="0" data-s="0" data-t="13.033" aria-current="true">an ascii moose undergoes gravitational collapse</a> <span>0:13</span></li>
+<li><a href="films/an-ascii-narwhal-undergoes-gravitational-collapse.mp4" data-c="0" data-s="0" data-t="13.033">an ascii narwhal undergoes gravitational collapse</a> <span>0:13</span></li>
+<li><a href="films/an-ascii-elephant-undergoes-gravitational-collapse.mp4" data-c="0" data-s="0" data-t="13.033">an ascii elephant undergoes gravitational collapse</a> <span>0:13</span></li>
+<li><a href="films/an-ascii-cow-collapses-into-the-spherical-cow-she-always-was.mp4" data-c="0" data-s="0" data-t="13.033">an ascii cow collapses into the spherical cow she always was</a> <span>0:13</span></li>
+<li><a href="films/an-ascii-hedgehog-rolls-into-the-ball-it-always-meant-to-be.mp4" data-c="0" data-s="0" data-t="13.033">an ascii hedgehog rolls into the ball it always meant to be</a> <span>0:13</span></li>
+<li><a href="films/an-ascii-bear-undergoes-gravitational-collapse.mp4" data-c="0" data-s="0" data-t="13.033">an ascii bear undergoes gravitational collapse</a> <span>0:13</span></li>
+<li><a href="films/an-ascii-grouper-undergoes-gravitational-collapse.mp4" data-c="0" data-s="0" data-t="13.033">an ascii grouper undergoes gravitational collapse</a> <span>0:13</span></li>
+<li><a href="films/an-ascii-wrasse-undergoes-gravitational-collapse.mp4" data-c="0" data-s="0" data-t="13.033">an ascii wrasse undergoes gravitational collapse</a> <span>0:13</span></li>
+<li><a href="films/white-light-enters-an-ascii-moose-and-leaves-as-a-spectrum.mp4" data-c="1" data-s="0" data-t="6.967">white light enters an ascii moose and leaves as a spectrum</a> <span>0:07</span></li>
+<li><a href="films/white-light-enters-an-ascii-narwhal-and-leaves-through-the-tusk-as-a-spectrum.mp4" data-c="1" data-s="0" data-t="6.967">white light enters an ascii narwhal and leaves through the tusk as a spectrum</a> <span>0:07</span></li>
+<li><a href="films/white-light-enters-an-ascii-elephant-and-leaves-through-the-trunk-as-a-spectrum.mp4" data-c="1" data-s="0" data-t="6.967">white light enters an ascii elephant and leaves through the trunk as a spectrum</a> <span>0:07</span></li>
+<li><a href="films/white-light-enters-an-ascii-cow-and-leaves-as-a-spectrum.mp4" data-c="1" data-s="0" data-t="6.967">white light enters an ascii cow and leaves as a spectrum</a> <span>0:07</span></li>
+<li><a href="films/white-light-enters-an-ascii-hedgehog-and-leaves-through-the-spines-as-a-spectrum.mp4" data-c="1" data-s="0" data-t="6.967">white light enters an ascii hedgehog and leaves through the spines as a spectrum</a> <span>0:07</span></li>
+<li><a href="films/white-light-enters-an-ascii-bear-and-leaves-as-a-spectrum.mp4" data-c="1" data-s="0" data-t="6.967">white light enters an ascii bear and leaves as a spectrum</a> <span>0:07</span></li>
+<li><a href="films/white-light-enters-an-ascii-grouper-and-leaves-as-a-spectrum.mp4" data-c="1" data-s="0" data-t="6.967">white light enters an ascii grouper and leaves as a spectrum</a> <span>0:07</span></li>
+<li><a href="films/white-light-enters-an-ascii-blenny-and-leaves-as-a-spectrum.mp4" data-c="1" data-s="0" data-t="6.967">white light enters an ascii blenny and leaves as a spectrum</a> <span>0:07</span></li>
+<li><a href="films/a-coffee-cup-keeps-a-cardioid-of-light-at-the-bottom.mp4" data-c="1" data-s="0" data-t="8.967">a coffee cup keeps a cardioid of light at the bottom</a> <span>0:09</span></li>
+<li><a href="films/an-ascii-moose-reflects-more-than-it-lets-on.mp4" data-c="1" data-s="0" data-t="8.967">an ascii moose reflects more than it lets on</a> <span>0:09</span></li>
+<li><a href="films/an-ascii-narwhal-reflects-more-than-it-lets-on.mp4" data-c="1" data-s="0" data-t="8.967">an ascii narwhal reflects more than it lets on</a> <span>0:09</span></li>
+<li><a href="films/an-ascii-elephant-reflects-more-than-it-lets-on.mp4" data-c="1" data-s="0" data-t="8.967">an ascii elephant reflects more than it lets on</a> <span>0:09</span></li>
+<li><a href="films/an-ascii-cow-reflects-more-than-it-lets-on.mp4" data-c="1" data-s="0" data-t="8.967">an ascii cow reflects more than it lets on</a> <span>0:09</span></li>
+<li><a href="films/an-ascii-hedgehog-reflects-more-than-it-lets-on.mp4" data-c="1" data-s="0" data-t="8.967">an ascii hedgehog reflects more than it lets on</a> <span>0:09</span></li>
+<li><a href="films/an-ascii-moose-falls-toward-a-point-mass-and-insists-it-is-flying.mp4" data-c="0" data-s="0" data-t="8.967">an ascii moose falls toward a point mass and insists it is flying</a> <span>0:09</span></li>
+<li><a href="films/an-ascii-narwhal-falls-toward-a-point-mass-and-insists-it-is-flying.mp4" data-c="0" data-s="0" data-t="8.967">an ascii narwhal falls toward a point mass and insists it is flying</a> <span>0:09</span></li>
+<li><a href="films/an-ascii-elephant-falls-toward-a-point-mass-and-insists-it-is-flying.mp4" data-c="0" data-s="0" data-t="8.967">an ascii elephant falls toward a point mass and insists it is flying</a> <span>0:09</span></li>
+<li><a href="films/an-ascii-cow-falls-toward-a-point-mass-and-insists-it-is-flying.mp4" data-c="0" data-s="0" data-t="8.967">an ascii cow falls toward a point mass and insists it is flying</a> <span>0:09</span></li>
+<li><a href="films/an-ascii-hedgehog-falls-toward-a-point-mass-and-insists-it-is-flying.mp4" data-c="0" data-s="0" data-t="8.967">an ascii hedgehog falls toward a point mass and insists it is flying</a> <span>0:09</span></li>
+<li><a href="films/an-ascii-bear-falls-toward-a-point-mass-and-insists-it-is-flying.mp4" data-c="0" data-s="0" data-t="8.967">an ascii bear falls toward a point mass and insists it is flying</a> <span>0:09</span></li>
+<li><a href="films/an-ascii-grouper-falls-toward-a-point-mass-and-insists-it-is-flying.mp4" data-c="0" data-s="0" data-t="8.967">an ascii grouper falls toward a point mass and insists it is flying</a> <span>0:09</span></li>
+<li><a href="films/an-ascii-wrasse-falls-toward-a-point-mass-and-insists-it-is-flying.mp4" data-c="0" data-s="0" data-t="8.967">an ascii wrasse falls toward a point mass and insists it is flying</a> <span>0:09</span></li>
+<li><a href="films/the-tide-tears-an-ascii-moose-with-nothing-to-fall-toward.mp4" data-c="0" data-s="0" data-t="12.967">the tide tears an ascii moose with nothing to fall toward</a> <span>0:13</span></li>
+<li><a href="films/the-tide-tears-an-ascii-narwhal-with-nothing-to-fall-toward.mp4" data-c="0" data-s="0" data-t="12.967">the tide tears an ascii narwhal with nothing to fall toward</a> <span>0:13</span></li>
+<li><a href="films/the-tide-tears-an-ascii-elephant-with-nothing-to-fall-toward.mp4" data-c="0" data-s="0" data-t="12.967">the tide tears an ascii elephant with nothing to fall toward</a> <span>0:13</span></li>
+<li><a href="films/the-tide-tears-an-ascii-cow-with-nothing-to-fall-toward.mp4" data-c="0" data-s="0" data-t="12.967">the tide tears an ascii cow with nothing to fall toward</a> <span>0:13</span></li>
+<li><a href="films/the-tide-tears-an-ascii-hedgehog-with-nothing-to-fall-toward.mp4" data-c="0" data-s="0" data-t="12.967">the tide tears an ascii hedgehog with nothing to fall toward</a> <span>0:13</span></li>
+<li><a href="films/the-tide-tears-an-ascii-bear-with-nothing-to-fall-toward.mp4" data-c="0" data-s="0" data-t="12.967">the tide tears an ascii bear with nothing to fall toward</a> <span>0:13</span></li>
+<li><a href="films/the-tide-tears-an-ascii-grouper-with-nothing-to-fall-toward.mp4" data-c="0" data-s="0" data-t="12.967">the tide tears an ascii grouper with nothing to fall toward</a> <span>0:13</span></li>
+<li><a href="films/the-tide-tears-an-ascii-wrasse-with-nothing-to-fall-toward.mp4" data-c="0" data-s="0" data-t="12.967">the tide tears an ascii wrasse with nothing to fall toward</a> <span>0:13</span></li>
+<li><a href="films/a-jelly-ascii-moose-bounces-on-a-springy-floor.mp4" data-c="0" data-s="0" data-t="8.967">a jelly ascii moose bounces on a springy floor</a> <span>0:09</span></li>
+<li><a href="films/a-jelly-ascii-narwhal-bounces-on-a-springy-floor.mp4" data-c="0" data-s="0" data-t="8.967">a jelly ascii narwhal bounces on a springy floor</a> <span>0:09</span></li>
+<li><a href="films/a-jelly-ascii-elephant-bounces-on-a-springy-floor.mp4" data-c="0" data-s="0" data-t="8.967">a jelly ascii elephant bounces on a springy floor</a> <span>0:09</span></li>
+<li><a href="films/a-jelly-ascii-cow-trains-for-the-moon.mp4" data-c="0" data-s="0" data-t="8.967">a jelly ascii cow trains for the moon</a> <span>0:09</span></li>
+<li><a href="films/a-jelly-ascii-hedgehog-bounces-on-a-springy-floor.mp4" data-c="0" data-s="0" data-t="8.967">a jelly ascii hedgehog bounces on a springy floor</a> <span>0:09</span></li>
+<li><a href="films/an-ascii-gummy-bear-bounces-on-a-springy-floor.mp4" data-c="0" data-s="0" data-t="8.967">an ascii gummy bear bounces on a springy floor</a> <span>0:09</span></li>
+<li><a href="films/a-jelly-ascii-grouper-bounces-on-a-springy-floor.mp4" data-c="0" data-s="0" data-t="8.967">a jelly ascii grouper bounces on a springy floor</a> <span>0:09</span></li>
+<li><a href="films/a-jelly-ascii-wrasse-bounces-on-a-springy-floor.mp4" data-c="0" data-s="0" data-t="8.967">a jelly ascii wrasse bounces on a springy floor</a> <span>0:09</span></li>
+<li><a href="films/an-ascii-moose-grows-its-own-stripes.mp4" data-c="1" data-s="0" data-t="8.333">an ascii moose grows its own stripes</a> <span>0:08</span></li>
+<li><a href="films/an-ascii-narwhal-grows-its-own-stripes.mp4" data-c="1" data-s="0" data-t="8.333">an ascii narwhal grows its own stripes</a> <span>0:08</span></li>
+<li><a href="films/an-ascii-elephant-grows-its-own-stripes.mp4" data-c="1" data-s="0" data-t="8.333">an ascii elephant grows its own stripes</a> <span>0:08</span></li>
+<li><a href="films/an-ascii-cow-grows-its-own-stripes.mp4" data-c="1" data-s="0" data-t="8.333">an ascii cow grows its own stripes</a> <span>0:08</span></li>
+<li><a href="films/an-ascii-hedgehog-grows-its-own-stripes.mp4" data-c="1" data-s="0" data-t="8.333">an ascii hedgehog grows its own stripes</a> <span>0:08</span></li>
+<li><a href="films/an-ascii-bear-grows-its-own-stripes.mp4" data-c="1" data-s="0" data-t="8.333">an ascii bear grows its own stripes</a> <span>0:08</span></li>
+<li><a href="films/an-ascii-grouper-grows-its-own-stripes.mp4" data-c="1" data-s="0" data-t="8.333">an ascii grouper grows its own stripes</a> <span>0:08</span></li>
+<li><a href="films/an-ascii-wrasse-grows-the-wrong-uniform.mp4" data-c="1" data-s="0" data-t="8.333">an ascii wrasse grows the wrong uniform</a> <span>0:08</span></li>
+<li><a href="films/an-ascii-blenny-wears-the-cleaners-stripes-better-than-the-cleaner.mp4" data-c="1" data-s="0" data-t="8.333">an ascii blenny wears the cleaner&rsquo;s stripes better than the cleaner</a> <span>0:08</span></li>
+<li><a href="films/a-ring-of-four-turns-cannot-hold-them-flat.mp4" data-c="0" data-s="0" data-t="8.967">a ring of four turns cannot hold them flat</a> <span>0:09</span></li>
+<li><a href="films/a-sunflower-lays-its-seeds-in-fibonacci-spirals.mp4" data-c="1" data-s="0" data-t="8.333">a sunflower lays its seeds in fibonacci spirals</a> <span>0:08</span></li>
+<li><a href="films/a-sunflower-moose.mp4" data-c="1" data-s="0" data-t="8.333">a sunflower moose</a> <span>0:08</span></li>
+<li><a href="films/a-sunflower-elephant.mp4" data-c="1" data-s="0" data-t="8.333">a sunflower elephant</a> <span>0:08</span></li>
+<li><a href="films/a-sunflower-cow.mp4" data-c="1" data-s="0" data-t="8.333">a sunflower cow</a> <span>0:08</span></li>
+<li><a href="films/a-sunflower-hedgehog.mp4" data-c="1" data-s="0" data-t="8.333">a sunflower hedgehog</a> <span>0:08</span></li>
+<li><a href="films/a-teddy-bear-sunflower.mp4" data-c="1" data-s="0" data-t="8.333">a teddy bear sunflower</a> <span>0:08</span></li>
+<li><a href="films/a-sunflower-grouper.mp4" data-c="1" data-s="0" data-t="8.333">a sunflower grouper</a> <span>0:08</span></li>
+<li><a href="films/an-ascii-moose-on-a-torus-never-comes-home.mp4" data-c="0" data-s="0" data-t="21.033">an ascii moose on a torus never comes home</a> <span>0:21</span></li>
+<li><a href="films/an-ascii-narwhal-on-a-torus-never-comes-home.mp4" data-c="0" data-s="0" data-t="21.033">an ascii narwhal on a torus never comes home</a> <span>0:21</span></li>
+<li><a href="films/an-ascii-elephant-on-a-torus-never-comes-home.mp4" data-c="0" data-s="0" data-t="21.033">an ascii elephant on a torus never comes home</a> <span>0:21</span></li>
+<li><a href="films/an-ascii-cow-walks-a-torus-until-the-cows-come-home.mp4" data-c="0" data-s="0" data-t="21.033">an ascii cow walks a torus until the cows come home</a> <span>0:21</span></li>
+<li><a href="films/an-ascii-hedgehog-on-a-torus-never-comes-home.mp4" data-c="0" data-s="0" data-t="21.033">an ascii hedgehog on a torus never comes home</a> <span>0:21</span></li>
+<li><a href="films/an-ascii-bear-on-a-torus-never-comes-home.mp4" data-c="0" data-s="0" data-t="21.033">an ascii bear on a torus never comes home</a> <span>0:21</span></li>
+<li><a href="films/an-ascii-grouper-on-a-torus-never-comes-home.mp4" data-c="0" data-s="0" data-t="21.033">an ascii grouper on a torus never comes home</a> <span>0:21</span></li>
+<li><a href="films/an-ascii-wrasse-on-a-torus-never-comes-home.mp4" data-c="0" data-s="0" data-t="21.033">an ascii wrasse on a torus never comes home</a> <span>0:21</span></li>
+<li><a href="films/a-herd-of-ascii-moose-race-to-cover-a-torus.mp4" data-c="1" data-s="0" data-t="21.033">a herd of ascii moose race to cover a torus</a> <span>0:21</span></li>
+<li><a href="films/a-blessing-of-ascii-narwhals-race-to-cover-a-torus.mp4" data-c="1" data-s="0" data-t="21.033">a blessing of ascii narwhals race to cover a torus</a> <span>0:21</span></li>
+<li><a href="films/a-parade-of-ascii-elephants-race-to-cover-a-torus.mp4" data-c="1" data-s="0" data-t="21.033">a parade of ascii elephants race to cover a torus</a> <span>0:21</span></li>
+<li><a href="films/a-herd-of-ascii-cows-race-to-cover-a-torus.mp4" data-c="1" data-s="0" data-t="21.033">a herd of ascii cows race to cover a torus</a> <span>0:21</span></li>
+<li><a href="films/an-array-of-ascii-hedgehogs-race-to-cover-a-torus.mp4" data-c="1" data-s="0" data-t="21.033">an array of ascii hedgehogs race to cover a torus</a> <span>0:21</span></li>
+<li><a href="films/a-sleuth-of-ascii-bears-race-to-cover-a-torus.mp4" data-c="1" data-s="0" data-t="21.033">a sleuth of ascii bears race to cover a torus</a> <span>0:21</span></li>
+<li><a href="films/a-school-of-ascii-groupers-race-to-cover-a-torus.mp4" data-c="1" data-s="0" data-t="21.033">a school of ascii groupers race to cover a torus</a> <span>0:21</span></li>
+<li><a href="films/a-school-of-ascii-wrasses-race-to-cover-a-torus.mp4" data-c="1" data-s="0" data-t="21.033">a school of ascii wrasses race to cover a torus</a> <span>0:21</span></li>
+<li><a href="films/an-ascii-moose-too-big-for-its-world-meets-itself.mp4" data-c="0" data-s="0" data-t="15.033">an ascii moose too big for its world meets itself</a> <span>0:15</span></li>
+<li><a href="films/an-ascii-narwhal-too-big-for-its-world-meets-itself.mp4" data-c="0" data-s="0" data-t="15.033">an ascii narwhal too big for its world meets itself</a> <span>0:15</span></li>
+<li><a href="films/the-elephant-in-the-room-meets-itself.mp4" data-c="0" data-s="0" data-t="15.033">the elephant in the room meets itself</a> <span>0:15</span></li>
+<li><a href="films/an-ascii-cow-too-big-for-its-world-meets-itself.mp4" data-c="0" data-s="0" data-t="15.033">an ascii cow too big for its world meets itself</a> <span>0:15</span></li>
+<li><a href="films/an-ascii-hedgehog-too-big-for-its-world-meets-itself.mp4" data-c="0" data-s="0" data-t="15.033">an ascii hedgehog too big for its world meets itself</a> <span>0:15</span></li>
+<li><a href="films/an-ascii-bear-too-big-for-its-world-meets-itself.mp4" data-c="0" data-s="0" data-t="15.033">an ascii bear too big for its world meets itself</a> <span>0:15</span></li>
+<li><a href="films/an-ascii-grouper-too-big-for-its-world-meets-itself.mp4" data-c="0" data-s="0" data-t="15.033">an ascii grouper too big for its world meets itself</a> <span>0:15</span></li>
+<li><a href="films/an-ascii-wrasse-too-big-for-its-world-meets-itself.mp4" data-c="0" data-s="0" data-t="15.033">an ascii wrasse too big for its world meets itself</a> <span>0:15</span></li>
+<li><a href="films/two-cameras-for-one-ascii-moose.mp4" data-c="0" data-s="0" data-t="21.033">two cameras for one ascii moose</a> <span>0:21</span></li>
+<li><a href="films/two-cameras-for-one-ascii-narwhal.mp4" data-c="0" data-s="0" data-t="21.033">two cameras for one ascii narwhal</a> <span>0:21</span></li>
+<li><a href="films/two-cameras-for-one-ascii-elephant.mp4" data-c="0" data-s="0" data-t="21.033">two cameras for one ascii elephant</a> <span>0:21</span></li>
+<li><a href="films/two-cameras-for-one-ascii-cow.mp4" data-c="0" data-s="0" data-t="21.033">two cameras for one ascii cow</a> <span>0:21</span></li>
+<li><a href="films/two-cameras-for-one-ascii-hedgehog.mp4" data-c="0" data-s="0" data-t="21.033">two cameras for one ascii hedgehog</a> <span>0:21</span></li>
+<li><a href="films/two-cameras-for-one-ascii-bear.mp4" data-c="0" data-s="0" data-t="21.033">two cameras for one ascii bear</a> <span>0:21</span></li>
+<li><a href="films/two-cameras-for-one-ascii-grouper.mp4" data-c="0" data-s="0" data-t="21.033">two cameras for one ascii grouper</a> <span>0:21</span></li>
+<li><a href="films/two-cameras-for-one-ascii-wrasse.mp4" data-c="0" data-s="0" data-t="21.033">two cameras for one ascii wrasse</a> <span>0:21</span></li>
+<li><a href="films/the-voice-of-a-coffee-cup.mp4" data-c="1" data-s="1" data-t="3.367">the voice of a coffee cup</a> <span>0:03</span></li>
+<li><a href="films/the-voice-of-an-ascii-moose.mp4" data-c="1" data-s="1" data-t="3.367">the voice of an ascii moose</a> <span>0:03</span></li>
+<li><a href="films/the-voice-of-an-ascii-narwhal.mp4" data-c="1" data-s="1" data-t="3.367">the voice of an ascii narwhal</a> <span>0:03</span></li>
+<li><a href="films/the-voice-of-an-ascii-elephant.mp4" data-c="1" data-s="1" data-t="3.367">the voice of an ascii elephant</a> <span>0:03</span></li>
+<li><a href="films/the-voice-of-an-ascii-cow.mp4" data-c="1" data-s="1" data-t="3.367">the voice of an ascii cow</a> <span>0:03</span></li>
+<li><a href="films/the-voice-of-an-ascii-hedgehog.mp4" data-c="1" data-s="1" data-t="3.367">the voice of an ascii hedgehog</a> <span>0:03</span></li>
+<li><a href="films/the-voice-of-an-ascii-bear.mp4" data-c="1" data-s="1" data-t="3.367">the voice of an ascii bear</a> <span>0:03</span></li>
+<li><a href="films/the-voice-of-an-ascii-grouper.mp4" data-c="1" data-s="1" data-t="3.367">the voice of an ascii grouper</a> <span>0:03</span></li>
+<li><a href="films/the-voice-of-an-ascii-wrasse.mp4" data-c="1" data-s="1" data-t="3.367">the voice of an ascii wrasse</a> <span>0:03</span></li>
+<li><a href="films/two-drums-that-sound-the-same-in-theory.mp4" data-c="1" data-s="1" data-t="6.167">two drums that sound the same, in theory</a> <span>0:06</span></li>
+<li><a href="films/assume-a-spherical-cow.mp4" data-c="1" data-s="1" data-t="6.167">assume a spherical cow</a> <span>0:06</span></li>
+<li><a href="films/a-moose-and-a-mousse-struck-in-turn.mp4" data-c="1" data-s="1" data-t="6.167">a moose and a mousse struck in turn</a> <span>0:06</span></li>
+</ol>
+</details>
+</main>
+<p class="by">by <a href="https://github.com/bonchicbongenre/physiologus">bonchicbongenre</a></p>
+<script>
+const $=i=>document.getElementById(i),v=$("v"),L=[...document.querySelectorAll("ol a")],
+  calm=matchMedia("(prefers-reduced-motion: reduce)").matches,
+  id=a=>a.getAttribute("href").slice(6,-4),
+  mmss=s=>(s=Math.round(s),(s/60|0)+":"+String(s%60).padStart(2,"0"));
+let k=0,trail=[],seen=new Set();
+
+// Show film i: its first frame while it loads, then the film, and its label. A
+// silent film plays at once, muted, on a loop -- its motion is the thing shown. A
+// film with sound waits for the visitor, with its controls; with reduced motion,
+// every film waits.
+function show(i){if(i===k)return;k=i;
+  const a=L[i],d=a.dataset,s=d.s==1,f=id(a);
+  v.muted=v.loop=!s;v.controls=s||calm;v.autoplay=!s&&!calm;
+  v.poster="posters/"+f+".jpg";v.src="films/"+f+".mp4";
+  v.setAttribute("aria-label",a.textContent);
+  $("ft").textContent=a.textContent;
+  $("fm").textContent="single-channel video, "+(d.c==1?"colour":"black and white")+", "+(s?"sound":"silent");
+  $("fd").textContent=mmss(+d.t);
+  $("n").textContent=i+1+" of "+L.length;
+  L.forEach((b,j)=>j==i?b.setAttribute("aria-current","true"):b.removeAttribute("aria-current"))}
+
+// Every film has its own address. Arriving at one, by any door, adds it to the
+// trail of what was watched; going back takes it off again. "previous" is there
+// only when there is somewhere to go back to.
+function arrive(){const i=L.findIndex(a=>"#"+id(a)==location.hash),j=i<0?0:i;
+  if(trail.length>1&&j===trail[trail.length-2])trail.pop();else if(j!==trail[trail.length-1])trail.push(j);
+  seen.add(j);show(j);$("prev").hidden=trail.length<2}
+const visit=i=>{const h="#"+id(L[i]);location.hash==h?arrive():location.hash=h},
+  back=()=>{if(trail.length>1)history.back()},
+  // "next random" deals from the films not yet shown this visit; when every one
+  // has been, it deals the room again.
+  next=()=>{let pool=L.map((_,i)=>i).filter(i=>!seen.has(i));
+    if(!pool.length){seen=new Set([k]);pool=L.map((_,i)=>i).filter(i=>i!==k)}
+    visit(pool[Math.random()*pool.length|0])};
+addEventListener("hashchange",arrive);
+$("prev").onclick=back;
+$("next").onclick=next;
+addEventListener("keydown",e=>{const f={ArrowLeft:back,ArrowRight:next}[e.key];
+  if(f&&e.target!==v&&!e.altKey&&!e.metaKey&&!e.ctrlKey){f();e.preventDefault()}});
+L.forEach((a,j)=>a.onclick=e=>{e.preventDefault();visit(j);$("screen").scrollIntoView({behavior:calm?"auto":"smooth"})});
+v.onclick=()=>{if(!v.controls)v.paused?v.play():v.pause()};
+if(calm){v.removeAttribute("autoplay");v.pause();v.controls=true}
+arrive();
+
+// the page's own size: it asks for itself and counts what comes back
+fetch(location.pathname).then(r=>r.arrayBuffer()).then(b=>$("self").textContent=b.byteLength.toLocaleString("en-US"));
+console.log(String.fromCharCode(934,965,963,953,959,955,972,947,959,962)+": the natural philosopher.");
+</script>
+</body>
+</html>

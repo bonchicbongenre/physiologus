@@ -1,0 +1,27 @@
+What asciimoose.mov does. A golf pass must keep every line true.
+
+ 1. One film at a time, on its own black ground: 107 films. The room is as wide as
+    lets the film, its label and the way on fit one screen without scrolling.
+ 2. Under the film, its label: the title; its medium in small caps (single-channel
+    video, colour or black and white, silent or sound); 2026; its running time, in
+    lining tabular figures. A screen reader hears the title when the film changes.
+ 3. "next random" deals a film not yet shown this visit, never the one on screen;
+    when every film has been shown it deals the room again. The right arrow key
+    does the same. "N of 107" gives the film's number in the catalogue.
+ 4. "previous", and the left arrow key, walk back through what was watched;
+    "previous" appears only when there is somewhere to go back to.
+ 5. Every film has its own address, #its-title, and the back button walks the same
+    trail. A bare address shows the first film, an ascii moose.
+ 6. A silent film plays at once, muted, on a loop; clicking it pauses and resumes.
+    A film with sound waits, with its controls. With reduced motion every film
+    waits, with its controls, showing its first frame.
+ 7. "catalogue" folds out the room's own label, with the page's size read live, and
+    every title in catalogue order with its running time. Each title links to its
+    file; with script, it shows that film in the room and brings the room into
+    view. The film showing is marked.
+ 8. The console gives the Greek word for the one who reads nature, and what it
+    means.
+ 9. Colours come from the house tokens, crimson; dark mode follows the system.
+    The films' ground is their own black.
+10. The 404 is the label of a film that has not been made.
+11. The favicon is Fred's own outline, in crimson, lighter on dark tab bars.
